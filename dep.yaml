@@ -16,5 +16,5 @@ spec:
       - name: go
         image: gcr.io/spinnker-252016/gcp-cd-codelab
         ports: 
-        - containerPort: 80     
+          - containerPort: 80     
      
