@@ -5,4 +5,4 @@ steps:
   - name: "gcr.io/cloud-builders/docker"
     args: ["build", "-t", "skamalj/gcp-cd-codelab:$REVISION_ID", "-f", "Dockerfile", "."]
 images:
-  - "gcr.io/spinnaker-252016/gcp-cd-codelab:$REVISION_ID"
+  - "skamalj/gcp-cd-codelab:$REVISION_ID"
